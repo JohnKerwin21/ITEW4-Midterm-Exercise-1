@@ -7,6 +7,7 @@
 ::after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html,
@@ -62,15 +63,27 @@ section {
 h1 {
   font-family: "Protest Strike";
   color: rgb(255, 255, 255);
-  font-size: 6em;
-  letter-spacing: 3px;
+  font-size: 6.5em;
+  letter-spacing: 5px;
   text-align: center;
+}
+
+.title-overlay {
+  top: 9em;
+  position: absolute;
 }
 
 .image-container {
   display: flex;
   justify-content: center;
   margin-bottom: 4em;
+}
+
+.tft-bg {
+  width: 1000px;
+  height: 500px;
+  margin-top: 3em;
+  opacity: 0.8;
 }
 
 h2 {
@@ -80,10 +93,76 @@ h2 {
   letter-spacing: 3px;
   text-align: center;
   font-style: italic;
+  margin-bottom: 20px;
 }
 
 P {
+  position: relative;
+  box-sizing: border-box;
   font-family: "Arial";
   font-size: 1.2em;
+  max-width: 600px;
   text-align: center;
+  margin: 0 auto;
+}
+
+.play-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.play-button button {
+  padding: 10px 20px;
+  font-family: "Arial", sans-serif;
+  font-size: 1em;
+  color: white;
+  background-color: rgb(60, 63, 240);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 3em;
+}
+
+.play-button button:hover {
+  background-color: rgb(38, 39, 138);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  height: 100%;
+  background-color: rgb(19, 16, 16);
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+footer li {
+  display: inline-block;
+}
+
+.facebook,
+.instagram,
+.twitter {
+  width: 2em;
+  height: 2em;
+  display: inline-block;
+  padding: 1em;
+  padding-right: 3em;
+}
+
+.credits {
+  margin-top: 2em;
+  margin-bottom: 5em;
+  font-size: 13px;
+  color: rgb(138, 138, 138);
 }
