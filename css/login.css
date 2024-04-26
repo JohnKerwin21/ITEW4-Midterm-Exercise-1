@@ -2,9 +2,13 @@
  h2 {
     color: white;
     background-color: black;
-    padding: 20px;
-    font-size: 34px;
-    margin-bottom: 50px;
+    padding: 1rem;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+ }
+
+ body{
+    position: relative;
  }
 
  /* combinator */
@@ -16,12 +20,12 @@
 }
 
 #username, #password {
-    width: 300px;
-    font-size: 24px;
+    width: 18.75rem;
+    font-size: 1.5rem;
     margin: 15px;
     border: none;
-    padding: 7px 40px 7px;
-    border-radius: 15px;
+    padding: 0.5em 3rem 0.5em;
+    border-radius: 1em;
     background-color: lightgray;
 }
 
@@ -29,12 +33,12 @@
 
 .social-containers  > a{
     background-color: black;
-    height: 75px;
-    width: 75px;
+    height: 4em;
+    width: 4em;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 0.7em;
     text-decoration: none;
 }
 
@@ -44,13 +48,13 @@
     align-items: center;
     text-decoration: none;
     color: black;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: bold;
     margin-left: 5px;
  }
 
  .sign-transactions > .another-transaction {
-    font-size: 12px;
+    font-size: 0.7em;
     color: gray;
     margin: 5px;
  }
@@ -58,10 +62,20 @@
 
 
 /* single */
+.nav-container {
+    position: absolute;
+    background-color: transparent;
+    top: 25px;
+    width: 15rem;
+    height: 4rem;
+    z-index: 100;
+}
+
 .main-section-container {
     width: 100vw;
-    height: 92.39vh;
+    height: 100vh;
     position: relative;
+    
 }
 
 .background-image {
@@ -75,8 +89,8 @@
 }
 
 .form-container{
-    width: 500px;
-    height: 600px;
+    width: 32.25rem;
+    height: 37.5rem;
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
@@ -94,7 +108,7 @@ input[type='checkbox'] {
 
 .signed-stats {
     align-items: start;
-    font-size: 20px;
+    font-size: 1.5rem;
     color: gray;
 }
 
@@ -105,7 +119,7 @@ input[type='checkbox'] {
     height: 100px;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 1.9rem;
 }
 
 .sign-transactions{
@@ -117,7 +131,7 @@ input[type='checkbox'] {
 }
 
 .login-logo{
-    margin-right: 20px;
+    margin-right: 1.3rem;
  }
 
  .another-transaction {
