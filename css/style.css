@@ -7,7 +7,6 @@
 ::after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html,
@@ -38,6 +37,7 @@ nav ul {
 
 nav li {
   display: inline;
+  font-family: "Arial";
 }
 
 nav a {
@@ -153,11 +153,19 @@ footer li {
 .facebook,
 .instagram,
 .twitter {
+  align-items: center;
   width: 2em;
   height: 2em;
-  display: inline-block;
   padding: 1em;
   padding-right: 3em;
+}
+
+.nav-logo-1-bottom {
+  display: flex;
+  align-items: center;
+  height: 1.5em;
+  width: 6em;
+  margin-top: 2em;
 }
 
 .credits {
