@@ -7,6 +7,10 @@
     margin-bottom: 50px;
  }
 
+ body{
+    position: relative;
+ }
+
  /* combinator */
  .input-container, .main-section-container, .sign-transactions{
     display: flex;
@@ -29,8 +33,8 @@
 
 .social-containers  > a{
     background-color: black;
-    height: 75px;
-    width: 75px;
+    height: 60px;
+    width: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,10 +62,20 @@
 
 
 /* single */
+.nav-container {
+    position: absolute;
+    background-color: transparent;
+    top: 25px;
+    width: 200px;
+    height: 50px;
+    z-index: 100;
+}
+
 .main-section-container {
     width: 100vw;
-    height: 92.39vh;
+    height: 100vh;
     position: relative;
+    
 }
 
 .background-image {
