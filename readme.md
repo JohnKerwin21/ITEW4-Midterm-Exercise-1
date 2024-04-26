@@ -12,7 +12,7 @@ The theme of the website is TFT (Teamfight Tactics).
 
 1. **Home:** This page provides a brief introduction to the TFT website.
 2. **About:** The About page offers information about the team or organization behind the TFT website.
-3. **Mechanics:** On the Mechanics page, useres can find detailed information about the gameplay mechanics of Teamfight Tactics.
+3. **Mechanics:** On the Mechanics page, users can find detailed information about the gameplay mechanics of Teamfight Tactics.
 4. **Sign In:** The Sign In page allows users to access their accounts.
 5. **Sign Up:** The Sign Up page is where visitors can register for an account
 
