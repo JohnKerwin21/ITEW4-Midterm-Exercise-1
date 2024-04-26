@@ -170,3 +170,46 @@ section .sub {
     width: 90%;
   }
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  height: 100%;
+  background-color: rgb(19, 16, 16);
+  margin-top: 3em;
+  padding: 0 0 2em;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+footer li {
+  display: inline-block;
+}
+
+.facebook,
+.instagram,
+.twitter {
+  width: 2em;
+  height: 2em;
+  display: inline-block;
+  padding: 1em;
+  padding-right: 3em;
+}
+
+.credits {
+  margin-top: 2em;
+  margin-bottom: 5em;
+  font-size: 13px;
+  color: rgb(138, 138, 138);
+  max-width: 600px;
+  margin: 1em auto;
+  text-align: center;
+  font-size: 0.99rem;
+}
